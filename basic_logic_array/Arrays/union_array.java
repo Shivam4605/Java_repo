@@ -29,7 +29,6 @@ public class union_array {
         }
 
         System.out.println("Union Array:");
-
         for(int i = 0; i < k; i++){
             System.out.print(arr3[i] + " ");
         }
