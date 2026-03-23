@@ -12,10 +12,8 @@ public class two_sum_problem {
 
         for(int i=0; i<arr.length; i++){
             int sum = 0;
-            for(int j=i+1; j<arr.length; j++){
-               
+            for(int j=i; j<arr.length; j++){
                 sum = arr[i]+arr[j];
-
                 if(sum==target){
                     System.out.println(arr[i] + " pair is found " + arr[j] + " sum is : " + sum);
                 }

@@ -14,7 +14,7 @@ public class array_element_ocurence {
                 }
             }
             if(isvisited) continue;
-           for(int j = 0; j < arr1.length; j++){
+            for(int j = 0; j < arr1.length; j++){
               if(arr1[i] == arr1[j]){
                count++;
             }
