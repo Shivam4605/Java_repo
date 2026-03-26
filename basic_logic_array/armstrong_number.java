@@ -12,7 +12,6 @@ public class armstrong_number {
             num = num / 10;
         }
         return sum;
-
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

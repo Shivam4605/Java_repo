@@ -18,3 +18,26 @@ public class palindrom_string {
         }
     }
 }
+
+
+// public class palindrom_string{
+
+//     public static boolean ispalindrom(int x){
+
+//         int pali = 0;
+//         int original = x;
+//         while(x > 0){
+//             int mod = x % 10;
+//             pali = pali * 10 + mod;
+//             x = x / 10;
+//         }
+//         if(pali == original){
+//             return true;
+//         }
+//         return false;
+//     }
+//     public static void main(String[] args){
+//        boolean result =  ispalindrom(121);
+//        System.out.println(result);
+//     }
+// }
