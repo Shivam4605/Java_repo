@@ -19,4 +19,3 @@ public class rotate_k_position_right {
         }
     }
 }
-PP
