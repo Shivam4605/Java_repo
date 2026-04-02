@@ -12,7 +12,7 @@ public class find_max_number {
              return min;
     }
     public static void main(String[] args) {
-        
+
         int result = find_number_array();
         System.out.println("Max number in array is : " + result);
    }
