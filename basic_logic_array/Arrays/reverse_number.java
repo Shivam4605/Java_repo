@@ -1,6 +1,5 @@
 package basic_logic_array.Arrays;
 
-
 public class reverse_number{
     public static void main(String[] args){
 
