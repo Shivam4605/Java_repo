@@ -4,8 +4,9 @@ public class count_consonent_string {
     public static void main(String[] args){
         String str = "Shivam";
         int count = 0;
+        String vowels = "aeiouAEIOU";
         for(int i=0; i<str.length(); i++){
-            if(str.charAt(i) != 'a' && str.charAt(i) != 'o' && str.charAt(i) != 'u' && str.charAt(i) != 'i' && str.charAt(i) != 'e'){
+            if(vowels.indexOf(str.charAt(i)) == -1){
                 count++;
             }
         }
