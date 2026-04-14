@@ -41,15 +41,14 @@ public class pattern {
 
 
        char ch = 'A';
-       int count = 0;
-
+    
        for(int i = 0; i<3; i++){
         if(i % 2 == 0){
             ch = 'C';
         }else{
             ch = 'A';
         }
-       count = 0;
+        int count = 0;
 
         for(int j = 0; j<3; j++){
             if(i % 2 == 0){
